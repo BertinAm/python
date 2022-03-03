@@ -1,7 +1,7 @@
 import turtle as turt  # calling the turtle module
 
 
-def square(animal, size):   # Defining the falling_square function
+def square(animal, size):   # Defining the square function
     for i in range(30):
         animal.fd(size)
         size += 10     # incrementing the size of the square each time it passes through the loop
