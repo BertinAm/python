@@ -1,0 +1,26 @@
+.nav-bar{
+    margin: 0px;
+    height: 30px;
+    padding: 20px;
+    text-align: right;
+    background-color: black;
+}
+a {
+    color:brown;
+}
+.main1{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+}
+h1 {
+    color: white;
+}
+p {
+    color: yellow;
+}
+.main2{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+}

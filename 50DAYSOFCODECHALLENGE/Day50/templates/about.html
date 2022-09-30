@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+  <div>
+    <div class="nav-bar">
+        <a href="{{ url_for('about') }}">About</a>
+        <a href="{{ url_for('index') }}">Home</a>
+      </div>
+    <div class="main2">
+    <h1>About Page</h1>
+    <p  style="color:white"> Lorem ipsum dolor sit amet,
+        consectetur<br>
+        adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua<br>.
+        Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris<br>
+        nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in <br>
+        voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat<br>
+        cupidatat non proident,
+        sunt in culpa qui officia deserunt
+        mollit anim id est laborum.</p> </div>
+</div>
+{% endblock %}
