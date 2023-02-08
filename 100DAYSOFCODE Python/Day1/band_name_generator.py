@@ -1,3 +1,4 @@
+# Day1 of 100DaysOfPython
 # Greeting for my program
 print("Welcome to my Band Name Generator\n")
 # Asking the user for the city he grew up in
