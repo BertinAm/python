@@ -9,7 +9,7 @@ tip = int(input("How much tip would you like to give? 10, 12, or 15? ")) / 100
 number_of_people = int(input("How many people to split the bill? "))
 #Getting the the amount each person will pay
 amount_for_each_person = bill / number_of_people
-#Getting the amount to be tiped by each person
+#Getting the amount to be tiped by each person plus the tip
 amount_for_each_person_plus_tip = (amount_for_each_person * tip) + amount_for_each_person
-# printing the total amount to be tiped
+# printing the total amount to be payed plus the tip
 print(f"Each person should pay: {round(amount_for_each_person_plus_tip, 2)}")
