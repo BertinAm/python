@@ -23,7 +23,6 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 
-#Write your code below this line 👇
 # Asking the user for the direction
 direction = input('You"re at a crossroad. Where do you want to go? Type "left" or "right" ').lower()
 # if the user goes left enter the if statement
