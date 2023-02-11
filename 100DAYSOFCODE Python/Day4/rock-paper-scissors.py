@@ -1,3 +1,4 @@
+# Day4 of 100DaysOfPython
 rock = '''
     _______
 ---'   ____)
@@ -26,6 +27,7 @@ scissors = '''
 '''
 
 #Write your code below this line 👇
+# Greeting from my program
 print("Welcome to my rock - paper - scissors game")
 # importing the random module
 import random
