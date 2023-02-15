@@ -1,3 +1,4 @@
+"""
 # Day6 of 100DaysOfPython
 # function to turn the robot right
 def turn_right():
@@ -27,4 +28,4 @@ while not at_goal():
         # turn the robot left
         turn_left()
   
-        
+                            """
