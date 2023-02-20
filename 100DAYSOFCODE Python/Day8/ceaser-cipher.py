@@ -7,11 +7,11 @@ def caeser(direction, text, shift):
       letters = []
       # creating a for loop that loops through each letter in the text
       for letter in text:
-             # creating a variable called letter_index that stores the index of the letter in the alphabet list
-            letter_index = alphabet.index(letter)
             if direction == "encode":
                   # creating an if statement that checks if the letter is in the alphabet list
                   if letter in alphabet:
+                        # creating a variable called letter_index that stores the index of the letter in the alphabet list
+                        letter_index = alphabet.index(letter)
                         # creating an if statement that checks if the shift is greater than 26
                         if shift > 26:
                               print("The shift number is too high. It has to be less than 26.")
@@ -39,19 +39,19 @@ def caeser(direction, text, shift):
                         letters += letter 
             # creating an else statement that runs if the direction is not encode
             elif direction == "decode":
-                  # creating an if statement that checks if the letter is in the alphabet list
-                  if letter in alphabet:
+                    # creating an if statement that checks if the letter is in the alphabet list
+                    if letter in alphabet:
                         # creating an if statement that checks if the shift is greater than 26
-                      if shift > 26:
-                            # if the if statement is true, then the user is asked to input the shift number again
-                            print("The shift number is too high. It has to be less than 26.")
-                            #  asking the user to input the shift number again
-                            shift = int(input("Type the shift number again:\n"))
-                      # creating a variable called new_position that stores the difference of the letter_index and the shift
-                      new_position = letter_index - shift
-                      # selecting the letter at the new_position in the alphabet list and adding it to the letters list
-                      letters += alphabet[new_position]
-                  else:
+                        if shift > 26:
+                              # if the if statement is true, then the user is asked to input the shift number again
+                              print("The shift number is too high. It has to be less than 26.")
+                              #  asking the user to input the shift number again
+                              shift = int(input("Type the shift number again:\n"))
+                        # creating a variable called new_position that stores the difference of the letter_index and the shift
+                        new_position = letter_index - shift
+                        # selecting the letter at the new_position in the alphabet list and adding it to the letters list
+                        letters += alphabet[new_position]
+                    else:
                         # if the letter is not in the alphabet list, then it is added to the letters list
                         letters += letter
             # creating a variable called decoded_text that stores the joined letters list
