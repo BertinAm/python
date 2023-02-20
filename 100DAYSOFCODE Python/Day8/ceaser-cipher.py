@@ -41,6 +41,8 @@ def caeser(direction, text, shift):
             elif direction == "decode":
                     # creating an if statement that checks if the letter is in the alphabet list
                     if letter in alphabet:
+                        # creating a variable called letter_index that stores the index of the letter in the alphabet list
+                        letter_index = alphabet.index(letter)
                         # creating an if statement that checks if the shift is greater than 26
                         if shift > 26:
                               # if the if statement is true, then the user is asked to input the shift number again
