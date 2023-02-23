@@ -1,5 +1,4 @@
 # Day9 100DaysOfCodePython
-# Secret Auction Program
 # import os module to clear screen
 from os import system
 # import art module to print logo
