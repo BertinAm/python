@@ -1,6 +1,6 @@
 # Day10 100DaysOfCodePython
 # Calculator
-
+from os import system
 from art import logo
 # Calculator
 
@@ -77,6 +77,8 @@ def calculator():
     # if the user enters no, the statement variable will be assigned False
     else:
       statement = False
+      # clearing the screen
+      system("clear")
       # calling the calculator function
       calculator()
 
