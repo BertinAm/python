@@ -1,3 +1,5 @@
+# Day11 100DaysOfCodePython
+# Blackjack Game
 # making use of the choice method from the random module
 from random import choice
 # making use of the sample method from the random module
