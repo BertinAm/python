@@ -22,6 +22,8 @@ def deal_card():
             computer_cards = []
             # selecting a random number from the cards list
             computer_cards = choice(cards)
+            # printing the logo
+            print(logo)
             # printing the users cards and the sum of the users cards
             print(f"Your cards: {user_cards}, current score: {sum(user_cards)}")
             # printing the computers first card
@@ -80,14 +82,15 @@ def deal_card():
             choix = input("Do you want to play a game of Blackjack? Type 'y' or 'n': ")
             # creating an if statement to check if the user wants to play a game of blackjack
             if choix == 'y':
+                # clearing the terminal
+                system("clear")
                 # calling the deal_card function
                 deal_card()
             # creating an elif statement to check if the user does not want to play a game of blackjack
             else:
                 # changing the value of the users_choice variable to False
                 users_choice = False
-                # clearing the terminal
-                system("clear")
+               
                 
 
 # calling the deal_card function
